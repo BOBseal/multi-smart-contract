@@ -16,6 +16,8 @@ contract Staking {
     uint256 private constant USDT_DECIMALS = 1e6;
 
     // uint256 private rewardPercentage = 200; // 200%
+    // note from bob , use a arbitrary value based on totalpool or rewardpool in regards to time staked
+
     uint256 private s_rewardPerToken = 100_000 wei; // equal to 0.1 usdt 
 
     IERC20 private s_stakeToken;
